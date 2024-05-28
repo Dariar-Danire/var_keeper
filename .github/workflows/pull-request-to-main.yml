@@ -46,7 +46,7 @@ jobs:
           exit 1
           else
           echo "Integration Test PASS"
-          fi+
+          fi
           
   mega_hard_testing:
     needs: [unit_testing, integration_testing]
